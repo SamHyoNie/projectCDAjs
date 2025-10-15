@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+h1{
+    font-weight: 700;
+}
+
+#navbar-container ul, #navbar-container, #footer-container, #footer-container ul{
+    display: flex;
+}
+
+#footer-container{
+    justify-content: space-between;
+}
+#navbar-container{
+    justify-content: space-around;
+}
+
+#navbar-container li{
+    margin: 0 50px;
+}
+#footer-container li{
+    margin: 0 10px;
+}
